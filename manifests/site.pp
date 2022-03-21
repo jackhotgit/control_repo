@@ -5,9 +5,9 @@ node 'sxtc7fvm01' {
 }
 
 node /%web/ {
-  incldue role::app_server
+  include role::app_server
 }
 
 node /%db/ {
-  incldue role::db_server
+  include role::db_server
 }
