@@ -4,7 +4,7 @@ class profile::ssh_server {
   }
   service { 'sshd':
     ensure => 'running',
-    enable => 'ture',
+    enable => 'true',
   }
   ssh_authorized_key { 'root@sxtc7fvm01':
     ensure => 'present',
